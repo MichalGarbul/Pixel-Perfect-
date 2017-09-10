@@ -1,0 +1,483 @@
+$topSpan: #BD8CBF
+$bottomSpan: #82ca9c
+$backgroundLight: #F6F7FA
+$textColor: #656565
+$fonts: "Open Sans"
+$logoFont: "Merriweather"
+
+
+// ************ GLOBAL STYLE ************
+
+
+body
+    margin: 0 
+    padding: 0
+    min-width: 269px
+    background: $backgroundLight
+.container
+    max-width: 1200px
+    margin: 0 auto
+    
+[class*='col-'] 
+    float: left
+    position: relative
+    
+.mainSpan
+    font-family: $fonts
+    font-size: 32px
+    display: inline-block
+    color: $textColor
+
+    
+// ************ END GLOBAL STYLE END ************
+
+
+//********** START SECTION HEADER START **********
+
+
+header
+    background-image: url(https://static.pexels.com/photos/547116/pexels-photo-547116.jpeg)
+    background-position: center
+    background-size: cover
+    background-attachment: fixed
+    min-height: 100vh
+    color: white
+    font-family: $fonts
+    .container
+        padding-top: 30px
+
+    .slogan
+        padding-top: 250px
+        span 
+            font-size: 48px
+            word-wrap: initial
+            font-weight: 200
+        p 
+            padding: 25px 0
+            width: 500px
+            font-weight: bold
+            letter-spacing: .5px
+
+    .logo-text
+        position: absolute
+        left: 38px
+        font-size: 20px
+        font-style: italic
+        font-weight: 600
+    
+    .logo
+        width: 35px
+        height: 35px
+        border: 3px solid white
+        border-radius: 50%
+        position: relative
+        font-family: $logoFont
+        &:before
+            content: ''
+            top: 9px
+            left: 9px
+            position: absolute
+            width: 12px
+            height: 12px
+            border-radius: 50%
+            border: 3px solid white
+        
+    .takpap
+        position: absolute
+        transform: rotate(-90deg)
+        top: 400px
+        left: -60px
+
+        
+//********** END SECTION HEADER END **********
+
+
+//********** START SECTION START START **********
+
+
+.start
+    padding: 85px 0 120px
+    color: $textColor
+    p
+        padding: 10px 30px 0 0
+        letter-spacing: .5px
+    .mainSpan
+        display: block
+        padding: 70px 0 30px 15px
+
+    img
+        width: 500px
+        position: absolute
+        top: -700px
+
+    .col-phone
+        padding-top: 120px
+
+    .col-content
+        padding-top: 35px
+        
+        
+//********** END SECTION START END **********
+
+
+//********** START SECTION GALLERY START **********
+
+
+.gallery
+    color: #ffffff
+    letter-spacing: .5px
+    font-size: 12px
+    font-family: 'Open Sans'
+    h3
+        font-weight: lighter
+        padding-top: 25px
+    p 
+        padding-top: 25px
+    .row
+        margin: 0
+        .col
+            min-height: 250px
+            position: relative
+            padding: 0 40px
+    a
+        color: white
+        &:hover
+            color: #FFF
+        
+    .summary
+        position: absolute
+        left: 40px
+        bottom: 30px
+        font-size: 12px
+        font-weight: 600
+    
+    .gallery-background-1
+        background: #f5989d
+        
+    .gallery-background-2
+        background: #615f7d
+        
+    .gallery-background-3
+        background: url("https://static.pexels.com/photos/376368/pexels-photo-376368.jpeg")
+        background-position: center
+        background-size: cover
+        
+    .gallery-background-4
+        background: #bd8cbf
+        
+    .gallery-background-5
+        background: url('https://static.pexels.com/photos/248159/pexels-photo-248159.jpeg')
+        background-position: center
+        background-size: cover
+        
+    .gallery-background-6
+        background: #82ca9c
+        
+    .gallery-background-7
+        background: url('https://static.pexels.com/photos/63646/dandelion-colours-colour-green-63646.jpeg')
+        background-position: center
+        background-size: cover
+
+    
+//********** END SECTION GALLERY END **********
+
+
+//********** START SECTION DETAILS START **********
+
+
+.details
+    color: $textColor
+    position: relative
+    letter-spacing: .5px
+    .takpap
+        top: 120px
+        position: absolute        
+        transform: rotate(-90deg)
+        left: -30px
+        
+    .mainSpan
+        padding: 120px 0 40px
+        
+    h5 
+        font-weight: 600
+        
+    p
+        padding: 20px 30px 120px 0
+        
+    
+//********** END SECTION DETAILS END **********
+
+
+//********** START SECTION MORE START **********
+
+
+.more
+    font-family: $fonts
+    background-image: url(https://i.imgur.com/QFNfKsx.jpg)
+    background-position: center
+    background-size: cover
+    background-attachment: fixed
+    min-height: 100vh
+    color: #FFF
+    .container 
+        padding: 40vh 700px 0 0
+        
+    span
+        font-size: 53px
+        
+    a
+        color: #FFF
+        font-weight: bold
+        letter-spacing: .6px
+        text-decoration: none
+        &:hover
+            color: #FFF
+            
+    p
+        padding: 25px 0
+        
+        
+/********** END SECTION MORE END ********** 
+    
+
+//********** START SECTION REASONS START **********
+
+
+.reasons
+    background: #82CA9C
+    min-height: 500px
+    color: #FFF
+    font-family: $fonts
+    position: relative
+    .takpap
+        top: 120px
+        position: absolute        
+        transform: rotate(-90deg)
+        left: -30px
+        
+    .mainSpan
+        padding: 120px 25px 60px 0
+        margin: 0
+        font-weight: 100
+        color: #FFF
+        
+    span
+        letter-spacing: .8px
+        font-weight: 600
+        padding: 25px 0
+        
+    p
+        padding: 20px 50px 120px 0 
+        
+        
+//********** END SECTION REASONS END ********** 
+
+
+//********** START SECTION OFFERT START **********
+
+
+.offert
+    position: relative
+    .takpap
+        top: 120px
+        position: absolute        
+        transform: rotate(-90deg)
+        left: -30px
+        
+    .col
+        margin: 80px 0
+        padding: 50px 50px
+        &:hover
+            transition: .5s
+            box-shadow: 3px 3px 20px rgba(0, 0, 0, .5)
+            background: #fff
+            .top-span
+                background: $topSpan
+            .bottom-span
+                background: $bottomSpan
+        a
+            text-decoration: none
+    
+    h2
+        font-weight: 300
+        padding: 25px 0
+                
+    p
+        padding: 10px 0 55px
+                
+    .top-span
+        font-size: 11px
+        background: #BFBEBE
+        padding: 10px 20px
+        font-weight: 700
+        letter-spacing: .8px
+        
+    .bottom-span
+        background: #BFBEBE
+        padding: 20px 35px
+        display: block
+        width: 180px
+        font-weight: 600
+        letter-spacing: 1px
+        
+    .fa
+        font-size: 35px
+        padding: 15px 10px
+        color: #BFBEBE
+        
+    h2, p, .takpap 
+        color: $textColor
+        
+    .top-span, .bottom-span
+        color: #FFF
+        border-radius: 5px
+        
+        
+//********** END SECTION OFFERT END **********
+
+
+//********** START SECTION FOOTER START **********
+
+
+footer
+    padding-top: 80px
+    background: #192431
+    color: #FFF
+    letter-spacing: .5px
+    font-family: $fonts
+    .row
+        padding: 50px 0
+        
+    .col
+        padding-right: 40px
+        
+    h5
+        font-weight: bold 
+        padding-bottom: 20px
+        
+    p
+        padding-top: 30px
+        
+    ul
+        list-style-type: none
+        margin: 0
+        padding: 0
+        
+    li
+        color: #FFF
+        
+    .input-paragraph
+        color: #57697f
+        font-size: 12px
+        padding-top: 10px
+        
+    input
+        margin-top: 30px
+        display: inline-block
+        height: 40px
+        width: 80%
+        border-radius: 3px 0 0 3px
+        color: $textColor
+        
+    button
+        background: #82ca9c
+        border: none
+        height: 40px
+        width: 40px
+        
+        
+//********** END SECTION FOOTER END **********
+
+
+//********** START RESPONSIVE WEB DESIGN START **********
+
+
+@mixin respond-to($breakpoint) 
+    @if $breakpoint == "small" 
+        @media (max-width: 767px) 
+            @content
+    
+    @else if $breakpoint == "medium" 
+        @media (max-width: 749px) 
+            @content
+    
+    @else if $breakpoint == "large" 
+        @media (max-width: 970px) 
+            @content
+    
+  
+    @else if $breakpoint == "xlarge" 
+        @media (max-width: 1169px) 
+            @content
+            
+    @else if $breakpoint == "takpapHide" 
+        @media (max-width: 1250px) 
+            @content
+    @else if $breakpoint == "phoneHide" 
+        @media (max-width: 1045px) 
+            @content
+    
+@include respond-to(phoneHide)
+    .col-phone
+        img
+            display: none
+
+@include respond-to(takpapHide)
+    .takpap
+        display: none
+@include respond-to(small)
+    header
+        .slogan
+            padding-top: 30%
+            span
+                display: block
+            
+        p
+            display: inline
+    .more
+        .container
+            padding: 25px
+        span
+            font-size: 25px
+    .gallery
+        .col
+            height: 300px
+    .details
+        padding: 10px 10px 120px 10px
+        p,h5
+            padding: 10px 0
+    .more
+        padding-top: 30%
+    .reasons
+        padding-bottom: 100px
+        p
+            padding: 15px 0
+        
+    .offert
+        .col
+            padding: 35px 20px
+            margin: 25px 0
+        .container
+            margin: 80px 0
+    footer
+        h5
+            padding-top: 30px
+@include respond-to(medium)
+
+
+@include respond-to(large)
+    .more
+        span
+            font-size: 40px
+    
+@include respond-to(xlarge)
+    .gallery
+        .col
+            height: 300px
+    .more
+        .container
+            padding-right: 50px
+            
+            
+//********** END RESPONSIVE WEB DESIGN END **********
+

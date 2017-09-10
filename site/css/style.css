@@ -1,0 +1,350 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 269px;
+  background: #F6F7FA; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+[class*='col-'] {
+  float: left;
+  position: relative; }
+
+.mainSpan {
+  font-family: "Open Sans";
+  font-size: 32px;
+  display: inline-block;
+  color: #656565; }
+
+header {
+  background-image: url(https://static.pexels.com/photos/547116/pexels-photo-547116.jpeg);
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: white;
+  font-family: "Open Sans"; }
+  header .container {
+    padding-top: 30px; }
+  header .slogan {
+    padding-top: 250px; }
+    header .slogan span {
+      font-size: 48px;
+      word-wrap: initial;
+      font-weight: 200; }
+    header .slogan p {
+      padding: 25px 0;
+      width: 500px;
+      font-weight: bold;
+      letter-spacing: .5px; }
+  header .logo-text {
+    position: absolute;
+    left: 38px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600; }
+  header .logo {
+    width: 35px;
+    height: 35px;
+    border: 3px solid white;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    font-family: "Merriweather"; }
+    header .logo:before {
+      content: '';
+      top: 9px;
+      left: 9px;
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      border: 3px solid white; }
+  header .takpap {
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 400px;
+    left: -60px; }
+
+.start {
+  padding: 85px 0 120px;
+  color: #656565; }
+  .start p {
+    padding: 10px 30px 0 0;
+    letter-spacing: .5px; }
+  .start .mainSpan {
+    display: block;
+    padding: 70px 0 30px 15px; }
+  .start img {
+    width: 500px;
+    position: absolute;
+    top: -700px; }
+  .start .col-phone {
+    padding-top: 120px; }
+  .start .col-content {
+    padding-top: 35px; }
+
+.gallery {
+  color: #ffffff;
+  letter-spacing: .5px;
+  font-size: 12px;
+  font-family: 'Open Sans'; }
+  .gallery h3 {
+    font-weight: lighter;
+    padding-top: 25px; }
+  .gallery p {
+    padding-top: 25px; }
+  .gallery .row {
+    margin: 0; }
+    .gallery .row .col {
+      min-height: 250px;
+      position: relative;
+      padding: 0 40px; }
+  .gallery a {
+    color: white; }
+    .gallery a:hover {
+      color: #FFF; }
+  .gallery .summary {
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+    font-size: 12px;
+    font-weight: 600; }
+  .gallery .gallery-background-1 {
+    background: #f5989d; }
+  .gallery .gallery-background-2 {
+    background: #615f7d; }
+  .gallery .gallery-background-3 {
+    background: url("https://static.pexels.com/photos/376368/pexels-photo-376368.jpeg");
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover; }
+  .gallery .gallery-background-4 {
+    background: #bd8cbf; }
+  .gallery .gallery-background-5 {
+    background: url("https://static.pexels.com/photos/248159/pexels-photo-248159.jpeg");
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover; }
+  .gallery .gallery-background-6 {
+    background: #82ca9c; }
+  .gallery .gallery-background-7 {
+    background: url("https://static.pexels.com/photos/63646/dandelion-colours-colour-green-63646.jpeg");
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover; }
+
+.details {
+  color: #656565;
+  position: relative;
+  letter-spacing: .5px; }
+  .details .takpap {
+    top: 120px;
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    left: -30px; }
+  .details .mainSpan {
+    padding: 120px 0 40px; }
+  .details h5 {
+    font-weight: 600; }
+  .details p {
+    padding: 20px 30px 120px 0; }
+
+.more {
+  font-family: "Open Sans";
+  background-image: url(https://i.imgur.com/QFNfKsx.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #FFF; }
+  .more .container {
+    padding: 40vh 700px 0 0; }
+  .more span {
+    font-size: 53px; }
+  .more a {
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: .6px;
+    text-decoration: none; }
+    .more a:hover {
+      color: #FFF; }
+  .more p {
+    padding: 25px 0; }
+
+/********** END SECTION MORE END ********** */
+.reasons {
+  background: #82CA9C;
+  min-height: 500px;
+  color: #FFF;
+  font-family: "Open Sans";
+  position: relative; }
+  .reasons .takpap {
+    top: 120px;
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    left: -30px; }
+  .reasons .mainSpan {
+    padding: 120px 25px 60px 0;
+    margin: 0;
+    font-weight: 100;
+    color: #FFF; }
+  .reasons span {
+    letter-spacing: .8px;
+    font-weight: 600;
+    padding: 25px 0; }
+  .reasons p {
+    padding: 20px 50px 120px 0; }
+
+.offert {
+  position: relative; }
+  .offert .takpap {
+    top: 120px;
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    left: -30px; }
+  .offert .col {
+    margin: 80px 0;
+    padding: 50px 50px; }
+    .offert .col:hover {
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s;
+      -webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+      background: #fff; }
+      .offert .col:hover .top-span {
+        background: #BD8CBF; }
+      .offert .col:hover .bottom-span {
+        background: #82ca9c; }
+    .offert .col a {
+      text-decoration: none; }
+  .offert h2 {
+    font-weight: 300;
+    padding: 25px 0; }
+  .offert p {
+    padding: 10px 0 55px; }
+  .offert .top-span {
+    font-size: 11px;
+    background: #BFBEBE;
+    padding: 10px 20px;
+    font-weight: 700;
+    letter-spacing: .8px; }
+  .offert .bottom-span {
+    background: #BFBEBE;
+    padding: 20px 35px;
+    display: block;
+    width: 180px;
+    font-weight: 600;
+    letter-spacing: 1px; }
+  .offert .fa {
+    font-size: 35px;
+    padding: 15px 10px;
+    color: #BFBEBE; }
+  .offert h2, .offert p, .offert .takpap {
+    color: #656565; }
+  .offert .top-span, .offert .bottom-span {
+    color: #FFF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+
+footer {
+  padding-top: 80px;
+  background: #192431;
+  color: #FFF;
+  letter-spacing: .5px;
+  font-family: "Open Sans"; }
+  footer .row {
+    padding: 50px 0; }
+  footer .col {
+    padding-right: 40px; }
+  footer h5 {
+    font-weight: bold;
+    padding-bottom: 20px; }
+  footer p {
+    padding-top: 30px; }
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  footer li {
+    color: #FFF; }
+  footer .input-paragraph {
+    color: #57697f;
+    font-size: 12px;
+    padding-top: 10px; }
+  footer input {
+    margin-top: 30px;
+    display: inline-block;
+    height: 40px;
+    width: 80%;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    color: #656565; }
+  footer button {
+    background: #82ca9c;
+    border: none;
+    height: 40px;
+    width: 40px; }
+
+@media (max-width: 1045px) {
+  .col-phone img {
+    display: none; } }
+
+@media (max-width: 1250px) {
+  .takpap {
+    display: none; } }
+
+@media (max-width: 767px) {
+  header .slogan {
+    padding-top: 30%; }
+    header .slogan span {
+      display: block; }
+  header p {
+    display: inline; }
+  .more .container {
+    padding: 25px; }
+  .more span {
+    font-size: 25px; }
+  .gallery .col {
+    height: 300px; }
+  .details {
+    padding: 10px 10px 120px 10px; }
+    .details p, .details h5 {
+      padding: 10px 0; }
+  .more {
+    padding-top: 30%; }
+  .reasons {
+    padding-bottom: 100px; }
+    .reasons p {
+      padding: 15px 0; }
+  .offert .col {
+    padding: 35px 20px;
+    margin: 25px 0; }
+  .offert .container {
+    margin: 80px 0; }
+  footer h5 {
+    padding-top: 30px; } }
+
+@media (max-width: 970px) {
+  .more span {
+    font-size: 40px; } }
+
+@media (max-width: 1169px) {
+  .gallery .col {
+    height: 300px; }
+  .more .container {
+    padding-right: 50px; } }
